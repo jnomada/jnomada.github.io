@@ -1,0 +1,101 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.transparent {
+	opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.navbar-custom {
+	background-color: #3ecc1a;
+	font-weight: bold;
+}
+
+.margin-top {
+	margin-top: 55px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+.extraMargins {
+	margin-top:20px;
+	margin-bottom:20px;
+	
+}
+
+.greenSection {
+	background-color: green;
+}
+
+/*.about-us {
+	border-radius: 50px;
+	z-index: 100;
+	background-color :rgb(50, 188, 45, 0.9);
+	color: white;
+	
+
+}*/
+
+.about-background {
+	background-image: url("images/ecohouse.jpg");
+	
+
+	
+
+}
+
+.about-text {
+	background-color: rgba(255,255,255,0.7);
+	padding: 10px;
+
+}
+
+.position {
+	position: relative;
+	top 1000x;
+	z-index:-1;
+
+}
+
+footer {
+	background-color: rgba(0,0,0,0.7);
+	color: #ffffff;
+
+
+}
+
+footer a {
+	color: #ffffff;
+
+}
+
+footer a:hover {
+	color: #ffffff;
+}
+
+footer h6 {
+	color: #000000;
+}
+
+.borders {
+	border-left: 1px solid white;
+	border-left: 1px solid white;
+}
+
+.icon:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+}
+
+.get-quote {
+	background-image: url("images/tree1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20px;
+}
+
+.get-quote-text {
+	background-color: rgba(255,255,255,0.7);
+	padding: 20px;
+	border-radius: 20px 20px 20px 20px;
