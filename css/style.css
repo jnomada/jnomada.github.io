@@ -24,6 +24,14 @@ hr {
 	z-index: 9999;
 }
 
+.padding-nav-fix {
+	padding-top: 50px;
+}
+
+.social-media {
+	margin-left: 25px;
+}
+
 .nopadding {
 	padding-left: 0;
 	padding-right: 0;
