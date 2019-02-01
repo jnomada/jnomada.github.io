@@ -1,0 +1,84 @@
+
+.title {
+  text-shadow: 0 1px 0 rgb(204,204,204) , 0 2px 0 rgb(201,201,201) , 0 3px 0 rgb(187,187,187) , 0 4px 0 rgb(185,185,185) , 0 5px 0 rgb(170,170,170) , 0 6px 1px rgba(0,0,0,0.0980392) , 0 0 5px rgba(0,0,0,0.0980392) , 0 1px 3px rgba(0,0,0,0.298039) , 0 3px 5px rgba(0,0,0,0.2) , 0 5px 10px rgba(0,0,0,0.247059) , 0 10px 10px rgba(0,0,0,0.2) , 0 20px 20px rgba(0,0,0,0.14902) ;
+  font-size: 6em;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, p {
+  text-align: center;
+}
+
+.done {
+  text-decoration: line-through;
+  color: black;
+}
+
+.doneColor {
+  background-color: #6ded79;
+}
+
+.delButton {
+  background-color: #456393;
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  padding: 5px;
+  margin-top: -7px;
+  margin-bottom: -7px;
+  width: 30px;
+  left: -30px;
+}
+
+.delButton:hover {
+  background-color: #c43535;
+  color: white;
+}
+
+li {
+  list-style: none;
+  background-color: #456393;
+  color: white;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 0px;
+  position: relative;
+}
+
+li:hover {
+  background-color: #7da0db;
+  color: white;
+}
+
+#first {
+  font-family: 'Kalam', cursive;
+  font-size: 2em;
+
+}
+
+.byMe {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+  top: -20px;
+  text-align: center;
+  left: 40%;
+  /*left: 60%;*/
+  /*transform: rotate(90deg);*/
+  font-size:12px;
+  /*font-weight: bold;*/
+}
+
+/*#notebook {
+  
+  background-image: url("img/notebook.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}*/
