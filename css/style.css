@@ -1,0 +1,258 @@
+
+/*font-family: 'Lora', serif;
+font-family: 'Muli', sans-serif;*/
+
+* {
+	font-family: 'Muli', sans-serif;
+}
+
+.h1-bold {
+	font-weight: bold;
+}
+
+.stand-out {
+	font-weight: bold;
+	color: #d71ff2;
+}
+
+hr {
+	background-color: #FFFFFF;
+}
+
+.navbar-custom {
+	background-color: #101114;
+	z-index: 9999;
+}
+
+.padding-nav-fix {
+	padding-top: 50px;
+}
+
+.social-media {
+	margin-left: 25px;
+}
+
+.nopadding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.p-padding {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.home {
+	background: url(../images/me1.png);
+	background-attachment: scroll;
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height:640px;
+	width:100%;
+}
+
+.hi {
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+
+.html-icons {
+	width:300px;
+	margin-top: 20px;
+} 
+
+.icons {
+	width:125px;
+}
+
+.woodbg {
+	background-image: url(../images/woodcoloured.jpg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center top; 
+  	background-size: cover;
+
+}
+
+#about {
+	/*background-image: LINEAR-GRADIENT(TO RIGHT, RGB(5, 3, 5), RGB(15, 139, 169));*/
+	background-color: rgba(15, 139, 169, 0.8);
+	color: #FFFFFF;
+	/*border-radius: 0% 0% 0% 50%;*/
+}
+
+.about-margin {
+	margin-top: 50px;
+}
+
+.photo {
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 200px;
+	position: relative;
+}
+
+.photo1 {
+	transform: rotate(20deg);
+}
+
+.photo:hover {
+	transform: rotate(0deg);
+	transform: scale(2);
+	transition-duration: 0.5s;
+	z-index: 9999;
+}
+
+
+.photo2 {
+	transform: rotate(-20deg);
+}
+
+
+.photo3 {
+	transform: rotate(20deg);
+}
+
+
+.photo4 {
+	transform: rotate(-20deg);
+}
+
+.photo5 {
+	transform: rotate(20deg);
+}
+
+.photo6 {
+	transform: rotate(-20deg);
+}
+
+#projects {
+	/*background-color: #ffb200;
+*/
+
+	/*background-color: rgba(255,178,0, 0.8);*/
+}
+
+#projects h1 {
+	text-align: center;
+
+}
+
+.card {
+	border-radius: 50%;
+	overflow: hidden;
+	border-width: 0px;
+}
+
+.card-body {
+	padding-left: 50px;
+	padding-right: 30px;
+	width:260px;
+	text-align: center;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition-duration: 0.5s;
+}
+
+.bgblack {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+/*.project-circle {
+	padding:40px;
+	border-radius: 50%;
+	overflow: hidden;
+	text-align: center;
+	height: 250px;
+	width:250px;
+	background-image: url(../images/irenewables.png) no-repeat center center fixed;
+	background-size: 250px; 
+}*/
+
+/*.c-black {
+	background-color: #000000;
+	color: #FFFFFF;
+}*/
+
+/*.c-purple {
+	background-color: #8C1C94;
+	color: #FFFFFF;
+}*/
+
+.prj-img {
+	width: 425px;
+	position: relative;
+	left: -40px;
+}
+
+.prj-col {
+	margin:20px;
+}
+
+/*.project-rotate-left {
+	background-color: #8C1C94;
+	color: #FFFFFF;
+	transform: rotate(-5deg);
+	padding:20px;
+}*/
+
+/*.project-straight {
+	background-color: #000000;
+	color: #FFFFFF;
+	top: -20px;
+	padding:20px;
+}*/
+
+/*.project-rotate-right {
+	background-color: #8C1C94;
+	color: #FFFFFF;
+	transform: rotate(5deg);
+	padding:20px;
+}*/
+
+
+#contact {
+	/*background-image: LINEAR-GRADIENT(TO RIGHT, RGB(65, 41, 72), RGB(5, 5, 4));*/
+	background-color: #39024a;
+	background-color: rgba(57,2,74, 0.8);
+	color: #FFFFFF;
+	border-radius: 60% 0% 0% 0%;
+	border-left: 
+}
+
+#contact h1 {
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.myphoto {
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+
+}
+
+.email-text a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}	
+
+.footer {
+	color: #FFFFFF;
+	background-color: #101114;
+	height: 100px; 
+}
+
