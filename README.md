@@ -1,1 +1,0 @@
-# jnomada.github.io
