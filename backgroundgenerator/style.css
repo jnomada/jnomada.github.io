@@ -1,0 +1,29 @@
+body {
+	background: linear-gradient(to right, #690089, #ffffff);
+	font-family: 'K2D', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	top: 15%;
+	text-shadow: ;
+}
+
+h1 {
+	font-family: 'K2D', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	width: 100%;
+	text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+
+}
+
+h3 {
+	font-family: 'K2D', sans-serif;
+	color: rgba(0,0,0,.5);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+}
