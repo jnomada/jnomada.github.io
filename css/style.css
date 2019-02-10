@@ -3,8 +3,8 @@ html, body {
 	padding: 0px;
 	margin: 0px;
 	overflow-x: hidden;
- }
-
+  }
+  
 /*font-family: 'Lora', serif;
 font-family: 'Muli', sans-serif;*/
 
@@ -63,7 +63,11 @@ hr {
 }
 
 .hi {
-	background-color:rgba(255, 255, 255, 0.5);
+	background-color:rgba(255, 242, 242, 0.397);
+	height: 640px;
+	padding-top: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 
@@ -86,14 +90,14 @@ hr {
 }
 
 #about {
-	/*background-image: LINEAR-GRADIENT(TO RIGHT, RGB(5, 3, 5), RGB(15, 139, 169));*/
 	background-color: rgba(15, 139, 169, 0.8);
 	color: #FFFFFF;
-	/*border-radius: 0% 0% 0% 50%;*/
 }
 
-.about-margin {
-	margin-top: 50px;
+.center-content-about {
+	text-align: center;
+    padding-left: 10%;
+		padding-right: 10%;
 }
 
 .photo {
@@ -106,10 +110,6 @@ hr {
 	position: relative;
 }
 
-.photo1 {
-	transform: rotate(20deg);
-}
-
 .photo:hover {
 	transform: rotate(0deg);
 	transform: scale(2);
@@ -117,34 +117,12 @@ hr {
 	z-index: 9999;
 }
 
-
-.photo2 {
-	transform: rotate(-20deg);
-}
-
-
-.photo3 {
+.ph-rt-right {
 	transform: rotate(20deg);
 }
 
-
-.photo4 {
+.ph-rt-left {
 	transform: rotate(-20deg);
-}
-
-.photo5 {
-	transform: rotate(20deg);
-}
-
-.photo6 {
-	transform: rotate(-20deg);
-}
-
-#projects {
-	/*background-color: #ffb200;
-*/
-
-	/*background-color: rgba(255,178,0, 0.8);*/
 }
 
 #projects h1 {
@@ -153,16 +131,7 @@ hr {
 }
 
 .card {
-	border-radius: 50%;
-	overflow: hidden;
 	border-width: 0px;
-}
-
-.card-body {
-	padding-left: 50px;
-	padding-right: 30px;
-	width:260px;
-	text-align: center;
 }
 
 .card:hover {
@@ -175,65 +144,11 @@ hr {
 	color: #FFFFFF;
 }
 
-/*.project-circle {
-	padding:40px;
-	border-radius: 50%;
-	overflow: hidden;
-	text-align: center;
-	height: 250px;
-	width:250px;
-	background-image: url(../images/irenewables.png) no-repeat center center fixed;
-	background-size: 250px; 
-}*/
-
-/*.c-black {
-	background-color: #000000;
-	color: #FFFFFF;
-}*/
-
-/*.c-purple {
-	background-color: #8C1C94;
-	color: #FFFFFF;
-}*/
-
-.prj-img {
-	width: 425px;
-	position: relative;
-	left: -40px;
-}
-
-.prj-col {
-	margin:20px;
-}
-
-/*.project-rotate-left {
-	background-color: #8C1C94;
-	color: #FFFFFF;
-	transform: rotate(-5deg);
-	padding:20px;
-}*/
-
-/*.project-straight {
-	background-color: #000000;
-	color: #FFFFFF;
-	top: -20px;
-	padding:20px;
-}*/
-
-/*.project-rotate-right {
-	background-color: #8C1C94;
-	color: #FFFFFF;
-	transform: rotate(5deg);
-	padding:20px;
-}*/
-
-
 #contact {
-	/*background-image: LINEAR-GRADIENT(TO RIGHT, RGB(65, 41, 72), RGB(5, 5, 4));*/
 	background-color: #39024a;
 	background-color: rgba(57,2,74, 0.8);
 	color: #FFFFFF;
-	border-radius: 60% 0% 0% 0%;
+	border-radius: 40% 0% 0% 0%;
 	border-left: 
 }
 
