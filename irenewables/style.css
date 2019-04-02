@@ -50,6 +50,7 @@ html, body {
 
 .about-background {
 	background-image: url("images/ecohouse.jpg");
+	background-size: cover;
 	
 
 	
