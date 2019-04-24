@@ -39,15 +39,6 @@ html, body {
 	background-color: green;
 }
 
-/*.about-us {
-	border-radius: 50px;
-	z-index: 100;
-	background-color :rgb(50, 188, 45, 0.9);
-	color: white;
-	
-
-}*/
-
 .about-background {
 	background-image: url("images/ecohouse.jpg");
 	background-size: cover;
@@ -105,9 +96,41 @@ footer h6 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding:20px;
+	display: block;
+
 }
 
 .get-quote-text {
 	background-color: rgba(255,255,255,0.7);
 	padding: 20px;
 	border-radius: 20px 20px 20px 20px;
+	text-align: center;
+	margin: auto;
+}
+
+.card-center {
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.icon {
+	padding-bottom: 10px;
+}
+
+.carousel-caption{
+	font-size: 1.5em;
+	background-color: #00010287;
+	padding: 10px;
+	left: 0ch;
+	border-radius: 0px 70px 70px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+	.carousel-caption{
+		font-size: 0.9em;
+	}
+	.c-image-h {
+		height: 290px;
+	}
+}
