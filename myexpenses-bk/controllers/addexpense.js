@@ -1,3 +1,0 @@
-const handleApiCall = (req, res) => {
-    
-}
