@@ -51,6 +51,7 @@ hr {
 }
 
 .home {
+	
 	background: url(../images/me1.png);
 	background-attachment: scroll;
 	background-position: left;
@@ -60,7 +61,17 @@ hr {
 	align-items: center;
 	height:640px;
 	width:100%;
+
+	
 }
+
+@media (max-width: 768px) {
+.home {
+	
+		background-image: none;
+	  }
+}
+
 
 .hi {
 	background-color:rgba(255, 242, 242, 0.397);
@@ -96,10 +107,10 @@ hr {
 .center-content-about {
 	text-align: center;
     padding-left: 10%;
-		padding-right: 10%;
+	padding-right: 10%;
 }
 
-.photo {
+/* .photo {
 	background-color: #FFFFFF;
 	padding-top: 10px;
 	padding-bottom: 30px;
@@ -122,7 +133,7 @@ hr {
 
 .ph-rt-left {
 	transform: rotate(-20deg);
-}
+} */
 
 #projects h1 {
 	text-align: center;
@@ -154,13 +165,27 @@ hr {
 	background-color: rgba(57,2,74, 0.8);
 	color: #FFFFFF;
 	border-radius: 40% 0% 0% 0%;
-	border-left: 
 }
 
 #contact h1 {
 	text-align: center;
 	margin-top: 20px;
 
+}
+
+.contact_row {
+		column-count: 2;	
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+}
+
+@media (max-width: 768px) {
+	
+	.contact_row  {
+		column-count: 1;	
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+	}
 }
 
 .myphoto {
