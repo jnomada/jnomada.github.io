@@ -1,0 +1,510 @@
+/* Estilos generales para todas las páginas */
+
+* {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+body {
+   margin: 0 auto;
+   font-family: 'Courier New', Courier, monospace;
+   background-color:  rgb(245, 84, 66);
+
+}
+
+.hoverButtons:hover {
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+/*.sticky {
+    position: fixed;
+    top: 0;  
+    width: 100%;  
+    opacity: 0.9;
+}*/
+
+header {
+    text-align: center;
+    background-color: rgb(245, 84, 66);
+    color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 3px;    
+}
+
+#logo {
+    height: 40px;
+    width:  40px;
+    margin-top: 8px;
+}
+
+#ban1 {
+    display: flex;
+}
+
+#logoSection {
+    width: 30%;
+    padding-left: 30px;
+    
+}
+
+#socialSection {
+    width: 70%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+    
+    
+}
+
+.smIconBox {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(54, 32, 30);
+    border-radius: 50px;
+    border: 2px solid white; 
+    padding: 15px;
+   
+}
+
+.smIconBox:hover {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid white; 
+}
+
+.socialImages {
+    height: 32px;
+    width: 35px;
+    
+}
+
+nav {
+    background-color: rgb(54, 32, 30);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: aliceblue; 
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    margin-left: 7px;
+    margin-right: 7px;
+    display: inline-block;
+    padding: 10px;
+   
+    
+}
+
+nav ul a {
+    color: aliceblue; 
+    text-decoration: none;
+    
+}
+
+nav ul li:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.active-page {
+    background-color: rgb(245, 84, 66);
+}
+
+#mainVideoSection {
+    background-color: rgb(245, 84, 66);
+}
+
+#mainVideoSection video {
+    width: 100%;
+}
+
+#mainVideoSection h1 {
+    text-align: center;
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -30vh);
+    color: aliceblue;
+    font-size: 4em;
+}
+
+#mainVideoSection h2 {
+    text-align: center;
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -25vh);
+    color: aliceblue;
+    font-size: 2em;
+}
+
+#mainVideoSection > hr {
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -30vh);
+    color: rgb(255, 255, 255);
+    width: 30%;
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    #mainVideoSection h1 {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -30vh);
+        font-size: 3em;
+    }
+    
+    #mainVideoSection h2 {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -25vh);
+        font-size: 1em;
+    }
+    
+    #mainVideoSection > hr {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30vh);  
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #mainVideoSection h1 {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -30vh);
+        font-size: 2em;
+    }
+    
+    #mainVideoSection h2 {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -25vh);
+        font-size: 1em;
+    }
+    
+    #mainVideoSection > hr {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -30vh);  
+    }
+  }
+
+
+#seccionVacia {
+    
+    background-color:  rgb(26, 25, 25);;
+}
+
+footer {
+    height: 150px;
+    background-color: rgb(26, 25, 25);
+    text-align: center;
+    color: rgb(233, 92, 10);
+    font-weight: 900;
+    font-size: large;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    position: relative;
+    bottom: 0;
+    
+}
+
+footer #pixelPerfect {
+    font-size: small;
+    
+}
+footer #pixelPerfect a {
+    font-size: small;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+
+/* Página Carta*/
+
+.cartaBackground {
+    background: url("../media/images/p2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(125, 194, 253);
+    height: fit-content;
+    width: 100%;
+}
+
+#carta {
+    
+    display: flexbox;
+    text-align: center;
+    height: fit-content;
+    
+    
+}
+
+.pizzaItem {
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: 600px;
+    height: auto;
+    margin: 20px;
+    padding: 15px;
+    display: inline-flex;
+}
+
+.pizzaItem img {
+    height: 200px;;
+
+}
+
+.pizzaItemImageDiv {
+    float: left;
+    margin-right: 5px;
+}
+
+.pizzaItemInfoDiv {
+    float: right;
+
+}
+
+.pizzaItemInfoDiv h2 {
+    margin-bottom: 5px;;
+}
+
+.pizzaItemInfoDiv p {
+    margin-bottom: 15px;
+}
+
+.recetaButton {
+    background-color: rgb(54, 32, 30);
+    color: aliceblue;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    vertical-align: bottom;
+    text-decoration: none;
+    font-size: smaller;
+
+}
+
+.pizzaItemInfoDiv button a:link {
+    color: aliceblue;    
+    text-decoration: none;
+}
+
+.pizzaItemInfoDiv button a:visited {
+    color: aliceblue;    
+    text-decoration: none;
+}
+
+
+
+
+
+/* Página elaboración */
+
+#elaboracionVideoSection h1 {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50vh);
+    color: aliceblue;
+    font-size: 2.5em;
+    margin: 0px;
+}
+
+
+#elaboracionVideoSection video {
+    width: 100%;
+}
+
+#elaboracionVideoSection {
+    
+    text-align: center;
+    background-color: rgb(245, 84, 66);
+    
+    
+}
+
+.paragraphBox {
+    background-color: rgb(245, 84, 66);
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px; 
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.innerParagraphBox {
+    background-color: aliceblue;
+    padding: 40px;
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+    min-width: min-content;  
+   
+}
+
+.innerParagraphBox p {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.innerParagraphBox img {
+    width: 350px;
+    height: 175px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Clientes */
+
+.flex {
+    display: block;   
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .flex {
+        display: flex;  
+       
+        
+        
+    }
+
+    .formBox {
+        max-width: 35% !important; 
+        
+    }
+
+
+}
+
+#clientesSection {
+    padding-top: 20px;
+    height: fit-content;
+    padding-bottom: 30px;
+}
+
+#clientesSection h1 {
+   color: white;
+   text-align: center;
+}
+.formBox {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.904);
+    margin-top: 30px;
+    height: fit-content;
+    max-width: 60%;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.formBox > form  {
+    display: block;
+    
+}
+
+form  * {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    letter-spacing: 2px;
+}
+
+form .inline > input, select {
+    border: 2px solid rgb(54, 32, 30);
+    height: 20px;
+    width: 200px;
+}
+
+form .inline > select {
+    height: 30px;
+    width: 205px;
+}
+
+.fb1 {
+    border: 15px solid rgb(72, 72, 219);
+    max-height: 300px;
+}
+
+.fb2 {
+    border: 15px solid  rgb(233, 92, 10);
+    
+}
+
+.inline {
+    display: block;
+
+}
+
+.inline > * {
+    display: block;
+    align-items: flex-end;
+    justify-content: right;
+    margin-bottom: 10px;;
+}
+
+.formButton {
+    background-color: rgb(54, 32, 30);
+    color: aliceblue;
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+    width: 100px;
+    
+    
+}
+
+.clientesBackground {
+    background: url("../media/images/p4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(125, 194, 253);
+    height: fit-content;
+    width: 100%;
+}
+
+
+/* Receta */
+
+.recetaBackground {
+    background: url("../media/images/p6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: fit-content;
+    background-size: cover;
+}
+
+.panel {
+    background-color: aliceblue;
+    display: block;
+    opacity: 0.9;
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#ingredientes {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
