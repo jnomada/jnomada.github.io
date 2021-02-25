@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mi Feed de Android</title>
+        <link>http://jsealey.com</link>
+        <description>Este canal contiene articulos e información sobre el desarrollo sobre Anroid en general.</description>
+        <language>es</language>
+        <category>Desarrollo Android</category>
+        <item>
+            <title>¿Qué necesitas para hacer apps siendo un programador Android?</title>
+            <link>https://www.yeeply.com/blog/programador-android-hacer-apps/</link>
+            <description>Tanto los expertos en el sector de las aplicaciones móviles, como los más novatos o los recién iniciados sabemos que ser programador Android no es fácil. De hecho llegar a ser un programador de éxito requiere tiempo y mucho esfuerzo.</description>
+            <guid isPermaLink="true">https://www.yeeply.com/blog/programador-android-hacer-apps/</guid>
+        </item>
+        <item>
+            <title>Mejor entorno de desarrollo Android</title>
+            <link>https://elandroidelibre.elespanol.com/2020/05/hacer-aplicaciones-para-android-que-es-un-entorno-de-desarrollo-y-cual-es-el-mejor.html</link>
+            <description>Hacer applicaciones Android: ¿Qué es un entorno de desarrollo y cuál es el mejor?</description>
+            <guid isPermaLink="true">https://elandroidelibre.elespanol.com/2020/05/hacer-aplicaciones-para-android-que-es-un-entorno-de-desarrollo-y-cual-es-el-mejor.html</guid>
+        </item>
+        <item>
+            <title>Las mejores herramientas de desarrollo de apps moviles</title>
+            <link>https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/</link>
+            <description>descripción de las diferentes formas de desarrollo de aplicaciones móviles.</description>
+            <guid isPermaLink="true">https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/</guid>
+        </item>
+        <item>
+            <title>Quiero desarrollar una app móvil… ¿Por dónde empiezo?</title>
+            <link>https://profile.es/blog/quiero-desarrollar-una-app-movil-por-donde-empiezo/</link>
+            <description>Aprovechando mi experiencia, te voy a contar los retos con los que me he ido encontrando y cómo veo desde mi punto de vista la situación actual en el desarrollo de aplicaciones móviles.</description>
+            <guid isPermaLink="true">https://profile.es/blog/quiero-desarrollar-una-app-movil-por-donde-empiezo/</guid>
+        </item>
+    </channel>
+</rss>
