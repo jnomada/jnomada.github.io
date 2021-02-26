@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+        <title>Mi Feed de Android con Atom</title>
+        <link href="http://jnomada.github.io/atom"/>
+        <updated>2021-03-25T15:01:02Z</updated>
+        <id>http://jnomada.github.io/atom</id>
+        <author>
+            <name>J Sealey</name>
+            <email>jsealey@jsealey.com</email>
+            <uri>http://jnomada.github.io</uri>
+          </author>
+        <category term="Desarrollo Android"/>
+        <entry>
+            <title>¿Qué necesitas para hacer apps siendo un programador Android?</title>
+            <link href="https://www.yeeply.com/blog/programador-android-hacer-apps/"/>
+            <id>https://www.yeeply.com/blog/programador-android-hacer-apps/</id>
+            <summary>Tanto los expertos en el sector de las aplicaciones móviles, como los más novatos o los recién iniciados sabemos que ser programador Android no es fácil. De hecho llegar a ser un programador de éxito requiere tiempo y mucho esfuerzo.</summary>
+            <updated>2021-03-24T15:01:02Z</updated>
+        </entry>
+        <entry>
+            <title>Mejor entorno de desarrollo Android</title>
+            <link href="https://elandroidelibre.elespanol.com/2020/05/hacer-aplicaciones-para-android-que-es-un-entorno-de-desarrollo-y-cual-es-el-mejor.html"/>
+            <summary>Hacer applicaciones Android: ¿Qué es un entorno de desarrollo y cuál es el mejor?</summary>
+            <id>https://elandroidelibre.elespanol.com/2020/05/hacer-aplicaciones-para-android-que-es-un-entorno-de-desarrollo-y-cual-es-el-mejor.html</id>
+            <updated>2021-03-23T15:01:02Z</updated>
+        </entry>
+        <entry>
+            <title>Las mejores herramientas de desarrollo de apps moviles</title>
+            <link href="https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/"/>
+            <summary>descripción de las diferentes formas de desarrollo de aplicaciones móviles.</summary>
+            <id>https://www.hiberus.com/crecemos-contigo/mejores-herramientas-de-desarrollo-de-apps-movil/</id>
+            <updated>2021-03-22T15:01:02Z</updated>
+        </entry>
+        <entry>
+            <title>Quiero desarrollar una app móvil… ¿Por dónde empiezo?</title>
+            <link href="https://profile.es/blog/quiero-desarrollar-una-app-movil-por-donde-empiezo/"/>
+            <summary>Aprovechando mi experiencia, te voy a contar los retos con los que me he ido encontrando y cómo veo desde mi punto de vista la situación actual en el desarrollo de aplicaciones móviles.</summary>
+            <id>https://profile.es/blog/quiero-desarrollar-una-app-movil-por-donde-empiezo/</id>
+            <updated>2021-03-21T15:01:02Z</updated>
+        </entry>
+</feed>
